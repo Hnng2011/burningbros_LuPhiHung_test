@@ -71,7 +71,7 @@ export function useProductsList() {
 
 export function useProductCategories() {
     const url = `${process.env.NEXT_PUBLIC_DOMAIN_URL}/products/category-list`
-    const { data, error, isLoading } = useSWR(url, fetcherCategories, { refreshInterval: 100000 })
+    const { data, error } = useSWR(url, fetcherCategories, { refreshInterval: 100000 })
 
-    return { categories: data, error, isLoading }
+    return { categories: data, error }
 }
