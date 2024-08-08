@@ -11,7 +11,7 @@ export default function ProductSearch() {
     const [debounceSearch] = useDebounce(searchInput, 1500);
 
     useEffect(() => {
-        if (debounceSearch !== "") {
+        if (debounceSearch !== undefined) {
             setSearch(debounceSearch);
         }
     }, [debounceSearch]);
