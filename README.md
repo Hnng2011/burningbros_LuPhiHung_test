@@ -27,4 +27,12 @@ npm run dev
 
 This will launch the application at http://localhost:3000.
 
+## Library and Tools
+
+- **Auto-Animate** for animate product automatically
+- **TailwindCSS + Daisy UI** for building UI
+- **useSWR** caching and auto revalidating data from APIs
+- **zustand** handling global state
+- **use-debounce** create a debounce value for input
+
 Happy coding! 🚀
