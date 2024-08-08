@@ -6,7 +6,7 @@ This is a Next.js project built to demonstrate the usage of various essential li
 
 Ensure you have the following installed:
 
-- **Node.js** (version 16.x or higher)
+- **Node.js** (version 20.x or higher)
 - **npm** (comes with Node.js)
 
 ## Installation
